@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+.textoimg{
+    padding-top:85px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center; 
+    border-radius: 10px;
+    text-shadow: 3px 5px 9px rgb(0,0, 0);
+}
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 20000;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+#aluguel{
+    font-size: 55px;
+    text-align: center;
+    border-radius: 9px;
+    background-color: #801a5cae;
+    font-family: Dancing Script;
+    margin: 100px;
+    padding: 0px;
+    color: #FFE1E1;
+}
+.imgdoindex{
+    padding-top: 90px;
+    position: relative;
+    display: inline-block;
+}
+#flordoindex{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+body{
+    background-color: #FFE1E1;
+    margin: 0px;
+    padding: 0px;
+}
+.imgtras{
+    display: inline-block;
+    position: relative;
+}
+.fonte_destaque2{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    color: #FFFFFF;
+    font-family: Dancing Script, cursive;
+    font-size: 50px;
+    max-width: 600px;
+}
+.fonte_destaque{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    color: #801A5C;
+    font-family: Dancing Script, cursive;
+    font-size: 110px;
+}
+.cabecalho{
+    background-color: #801A5C;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+#nomemarca {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+}
+#ferllu {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 55px;
+    font-family: 'Dancing Script', cursive;
+    margin: 0;
+    padding: 0;
+    color: #F8F4F7;
+    display: inline-block;
+    vertical-align: middle;
+}
+#logoferluimg {
+    height: 90px;
+    width: 90px;
+    vertical-align: middle;
+}
+#caixamenu{
+    margin: 0px;
+    padding: 5px;
+    background-color: #9B5388;
+    box-shadow: 0 7px 9px rgba(0, 0, 0, 0.5);
+}
+.listanonum{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    list-style-type: none;
+}
+.textomenu{
+    margin: 50px;
+    color: #FFE1E1;
+    font-family: Montserrat;
+    display:inline;
+}
+.link{
+    font-size: 1.7cap;
+    text-decoration: none;
+    color: currentColor;
+}
+.dancingFont{
+    font-family:Dancing Script;
+}
+#icowhats{
+    background-color: #F8F4F7;
+    border-radius: 10px;
+    margin: 20px;
+    width: 65px;
+    height: 65px;
+}
+#floricultura{
+    font-family: Montserrat;
+}
+
+.ferlluFlo{
+    color: #FFE1E1;
+    font-size: 60px;
+    font-family: Dancing Script;
+}
+.rodapetext{
+    color: #FFE1E1;
+    font-weight: lighter;
+}
+.fixacabeca{
+    position: fixed;
+}
+#alugue{
+    color: #801A5C;
+}
+#compre{
+    color: #A81971;
+}
+#ambiente{
+    color: #E22C9C;
+}
+#subimagem{
+    text-align: center;
+    font-weight: 450;
+    margin: 0;
+}
+#divsub{
+    margin: auto;
+    align-content: center;    
+    background-color: #FFFFFF;
+    max-width: 800px;
+    height: 150px;
+    border-radius:10px;
+    border: #380926 solid 3px;
+    font-size: 24px;
+    font-family: Montserrat;
+}
+#navdivsub{
+    margin: 70px;
+}
+.main-scroll-div {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}.cover{
+    position: relative;
+    width: 90%;
+    height: 50%;
+}
+.scroll-images::-webkit-scrollbar{
+    -webkit-appearance: none;
+}
+
+.icones{
+    color: black;
+    background-color: #380926;
+    font-size: 50px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    height: 236px;
+    width: 60px;
+    line-height: 236px; 
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px ;
+}
+.icondi{
+    color: black;
+    background-color: #380926;
+    font-size: 50px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    height: 236px;
+    width: 60px;
+    line-height: 236px; 
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.icones :hover{
+    color: gray;
+}
+.icondi :hover{
+    color: gray;
+}
+.scroll-images-orquideas{
+    width: 100%;
+    height:auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+.scroll-images-orquideas:hover>:not(:hover){
+    opacity: 0.2;
+    transition: opacity 1s ease;
+}
+#conhecaprod{
+    margin: auto;
+    text-align: center;
+    color: #A81971;
+    font-family: Montserrat;
+    margin-bottom: 90px;
+    margin-top: 90px;
+}
+#conheca{
+    font-size: 60px;
+    font-weight: 350;
+}
+#produtos{
+    font-size: 80px;
+    font-weight: 450;
+}
+.mapa{
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    margin:auto;
+    border-radius: 90px;
+}
+.SobreTitulo {
+    text-align: center;
+    color: black;
+    font-family: Montserrat;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    font-size: 50px;
+    font-weight: 30px;
+}
+
+
+
+.containerSobre {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.boxFotoSOBRE {
+    width: 210px;
+    height: 210px;
+    background-color: #f0f0f0;
+    margin: 20px;
+    border-radius: 16%;
+    overflow: hidden; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logoferluimgSOBRE {
+    max-width: 100%; 
+    max-height: 100%; 
+    object-fit: cover; 
+}
+
+.boxTextoSOBRE {
+    width: 400px;
+    height: 280px;
+    padding: 10px;
+    background-color: #FFFFFF;
+    border: #A81971 solid 3px;
+    margin: 0;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: Montserrat;
+    text-align: center;
+}
+
+.SobreTitulox {
+    text-align: center;
+    color: black;
+    font-family: Montserrat;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+#SobreTitulo2 h1 {
+    font-size: 40px;
+font-weight: normal;
+padding-top: 100px;
+}
+
+.SobreTitulo1 h1 {
+    font-size: 40px;
+    font-weight: normal;
+    padding-top: 100px;
+}
+a{
+    text-decoration: none;
+}
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #801A5C;
+    padding: 20px;
+    color: white;
+}
+.rodape p{
+    font-family: Montserrat;
+    margin: 0;
+    max-width: 145px;
+    text-align: center;
+    color: #F8F4F7;
+    font-size: 19px;
+}
+.redesociais{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 270px;
+}
+.redesociais p:hover{
+    color: #000000;
+    font-weight: 400;
+    text-decoration: underline;
+}
+.contatoinfo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 270px;
+}
+
+.redesociais div, .contatoinfo div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.redesociais img, .contatoinfo img{
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+    background-color: #F8F4F7;
+    border-radius: 10px;
+}
+
+.logodofooter{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+
+}
+.logodofooter img {
+    width: 100px;
+    height: auto;
+}
+#quemsomos {
+    width: 250px;
+    font-size: 16px;
+    height: 60px;
+    background-color: #380926;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    margin-top: none;
+    margin-left: 220px;
+    font-weight: bold;
+}
+#quemsomos:hover{
+    background-color: #E22C9C;
+    border: #380926 solid 3px;
+}
+
+.child-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+}
+.child {
+    min-width: 230px;
+    height: 230px;
+    margin: 1px 10px;
+    cursor: pointer;
+    border: 2px solid #A81971;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    display: flex; 
+    align-items: center;
+}
