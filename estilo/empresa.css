@@ -112,10 +112,10 @@ header{
 
 .fotosocias{
 
-    display: flex; 
-    justify-content: space-between;
-    margin-left: 500px;
-    margin-right: 500px;
+    display: flex;
+    justify-content: center;  
+   
+   
 }
 
 .containerempresa{
@@ -141,9 +141,9 @@ align-items: center;
 width: 180px;
 height: 180px;
  background-color: #FFFFFF;
-margin: 20px; 
-border-radius: 70%; 
-border: 2px solid #A81971;
+ margin: 20px; 
+border-radius: 100px; 
+border: 3px solid #A81971;
 
 }
 .boxandrea{
@@ -153,9 +153,10 @@ border: 2px solid #A81971;
     align-items: center;
     width: 180px;
     height: 180px;
+    background-color: #FFFFFF;
     margin: 20px;
-    border-radius: 70%; 
-    border: 5px solid #a81971;
+    border-radius: 100px; 
+    border: 3px solid #a81971;
 }
 .boxnossamissao{
     font-family: montserrat;
@@ -214,42 +215,46 @@ border: 2px solid #A81971;
     height: 500px;
     border-radius: 20px;
      background-color:  #FFFFFF;
-    margin: 20px; 
+    margin: 3px; 
     text-align: center;
     border: 3px solid #a81971; 
     font-family: montserrat;
     margin-top: 0%;
 
 }
-.tipogal{
-    text-align: center;
-    font-family: Dancing Script;
-    font-size: 70px;
-    color: #A81971;
-    font-weight: 800;
-    text-decoration: underline 2px;
-    padding-top: 140px;
-    margin: 0;
+
+.fotosdaempresa{
+    text-align: center; 
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        top: 0;
+        left: 0;
+    
 }
 
-.imgal{
-    min-width: 150px;
-    width: 150px;
-    height: 150px;
-    margin: 10px;
-    border: 2px solid #A81971;
-    background-color: #FFFFFF;
-    border-radius: 100px;
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+.box {
+    display: inline-flex;
+flex-direction: column; 
+justify-content: center; 
+align-items: center; 
+width: 180px;
+height: 180px;
+background-color: #FFFFFF;
+margin: 10px; 
+border-radius: 100px; 
+border: 5px solid #a81971;
+
 }
-.compgal{
-    display: flex;
-    justify-content: center;
+
+.box i{
+font-size: 24px; 
+font-size: 24 px; 
+margin-bottom: 19px; 
+border-radius: 100px; 
+border: 5px solid #a81971;
 }
+
 .ferlluFlo{
     font-size: 40px;
     font-family: Dancing Script;
